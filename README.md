@@ -19,5 +19,9 @@ Thanks to my good friend Bi Ruike,I have installed **Linux** successful.It is my
  2. *sudo*——I can have root right.
  3. *sudo apt-get install+software* ——If I want to install some software,like VIM,I just need to input **sudo apt-get install vim**.
  4. *sudo shutdown now*-——I can input this command to turn off my computer very quickly.
- 
+
+
+----------
+
+
  I know that I still am a fish and have a long way to go.Nevertheless,I have fun and want to learn more about computer recently. 
