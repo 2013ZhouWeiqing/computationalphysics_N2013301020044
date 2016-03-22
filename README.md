@@ -53,3 +53,60 @@ have fun and want to learn more about computer recently.
  >2.[   level_2](https://github.com/2013ZhouWeiqing/computationalphysics_N2013301020044/blob/master/homework2_level_2.py)
 >3.[  level_3](https://github.com/2013ZhouWeiqing/computationalphysics_N2013301020044/blob/master/homework2_level_3.py)
  
+----------
+第三次作业
+-
+因为觉得自己对于计算机语言太过陌生，老师又鼓励我们多解决问题，把计算机用起来，所以这次作业我将Chapter1后面的六道题目都进行了练习，其中将第一，二题将进行了画图练习。
+作业的程序如下：
+
+ 
+
+> 1. [第一题](https://github.com/2013ZhouWeiqing/computationalphysics_N2013301020044/blob/master/computational_physics/1.1.py)
+ >2. [第二题](https://github.com/2013ZhouWeiqing/computationalphysics_N2013301020044/blob/master/computational_physics/1.2.py)
+ >3. [第三题](https://github.com/2013ZhouWeiqing/computationalphysics_N2013301020044/blob/master/computational_physics/1.3.py)
+ >4. [第四题](https://github.com/2013ZhouWeiqing/computationalphysics_N2013301020044/blob/master/computational_physics/1.4.py)
+ >5. [第五题](https://github.com/2013ZhouWeiqing/computationalphysics_N2013301020044/blob/master/computational_physics/1.5.py)
+ >6. [第六题](https://github.com/2013ZhouWeiqing/computationalphysics_N2013301020044/blob/master/computational_physics/1.6.py)
+
+对于所用程序的思路进行一下解释:
+
+ - 首先创建一个空的list
+ - 然后不断地将运算结果append打入list
+ - 用 for 语句进行循环运算
+ - 最后运用 list 中定位的功能print结果
+ 
+因为不了解 list和循环语句,所以做作业之前进行了一些针对性的学习,在此分享一些总结的笔记:
+一，list 和 tuple 是python内置的有序集合，区别在于 list 内元素可变，但是 tuple 内元素不可变。
+关于元素的定位，定义一个 list
+For example：
+c=['zhouweiqing']
+定位 c[1] or c[-1]
+c.append('hahhhhaah')#加入到 list 的最后一位
+c.insert(1,love)#插入
+c.pop()# 删除最后一个元素
+tuple 与 list 类似
+二，条件判断和循环
+条件判断： if，else，elif（else if）
+if 语句是从上往下判断的，如果某个判断是 True 则会执行对应语句，忽略其他
+循环 有两种
+第一种 for...in 循环，依次把 list 或 tuple 中的元素进行操作。
+For example:求0-100的求和
+sum = 0
+for i in range(101)
+    sum = sum + i
+print sum
+第二种 while 循环，只要条件满足则不断循环，直至条件不满足，例子(计算100内奇数之和)：
+sum = 0
+n = 99
+while n >0
+    sum = sum + n
+    n = n - 2
+print sum
+ 
+本次作业尝试运用 raw_input  增强程序的交互性,学习到:
+raw_input()括号内的输入永远是字符串，如果想用数字进行操作，必须进行 int操作.
+
+ 因为图片上传出了点问题,持续更新中.
+
+
+
