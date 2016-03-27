@@ -14,6 +14,6 @@ for i in range(int(end_time/dt)):
 import matplotlib.pyplot as plt
 plt.plot(t,v)
 plt.show()
-plt.savefig('1.1.jpg')
+
 
 
