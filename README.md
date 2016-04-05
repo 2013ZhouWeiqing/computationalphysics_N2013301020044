@@ -129,3 +129,8 @@ dv/dt = a - bv
 >本题比较常见的物理模型是物体从足够高的高度下落,因为空气阻力和重力的作用,最终会到达一个极限速度,不再增加,如雨滴下落.
 
 ![enter image description here](https://raw.githubusercontent.com/2013ZhouWeiqing/computationalphysics_N2013301020044/master/%E7%AC%AC%E5%9B%9B%E6%AC%A1%E4%BD%9C%E4%B8%9A/figure_3.png)
+
+----------
+第五次作业
+-
+第五次作业仍未完成,周内上交.
