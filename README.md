@@ -1,18 +1,22 @@
-*
+
+
 
 **欢迎来到周巍青的作业**
 =
 
 ----------
-
-
-
 第一次作业
 -
+ - 安装了Linux系统,是在好友[毕睿克](https://github.com/aragornranger/computationalphysics_N2013301020051)同学的帮助之下完成安装的,对他表示感谢.
+ - 并在Linux环境下完成了python2.7环境的配置
+ - 注册了github账号[2013ZhouWeiqing](https://github.com/2013ZhouWeiqing/computationalphysics_N2013301020044)
+ - 正在学习markdown语法.
 
+----------
+第二次作业
+-
+老师让我们试着顺便写点东西,作为一个没有任何计算机语言基础的小白,我就顺便写点学习经历吧.
 ##Day 2016.3.2
-
-
 **OK,let me have a try**
 >It is my **first** time to edit the file in the github,so I am a little nervous.
 It is hard for me to do something cool by using computer because of less practice.
@@ -36,7 +40,7 @@ Going to sleep early is a good habit that can make me energetic,so I decide to s
 have fun and want to learn more about computer recently. 
 
 ----------
-第二次作业
+第三次作业
 -
 感谢好朋友[曹一](https://github.com/breakingDboy/computational_physics_2013301020120)对于自己程序的**耐心讲解**以及**分享的精神**，作为一个从来没有接触过任何计算机语言的小白，本次作业是在曹一同学的指导下完成的，自己对于原程序理解之后进行了一些删减，虽然功能和效果比曹一同学的原程序打了一些折扣，但是仍然满足了作业的要求。
 下面我简单说下对于原[程序](https://github.com/2013ZhouWeiqing/computationalphysics_N2013301020044/blob/master/homework2_level_1.py)的理解：
@@ -54,7 +58,7 @@ have fun and want to learn more about computer recently.
 >3.[  level_3](https://github.com/2013ZhouWeiqing/computationalphysics_N2013301020044/blob/master/homework2_level_3.py)
  
 ----------
-第三次作业
+第四次作业
 -
 因为觉得自己对于计算机语言太过陌生，老师又鼓励我们多解决问题，把计算机用起来，所以这次作业我将Chapter1后面的六道题目都进行了练习，其中将第一，二题将进行了画图练习。
 作业的程序如下：
@@ -76,34 +80,35 @@ have fun and want to learn more about computer recently.
  - 最后运用 list 中定位的功能print结果
  
 因为不了解 list和循环语句,所以做作业之前进行了一些针对性的学习,在此分享一些总结的笔记:
-一，list 和 tuple 是python内置的有序集合，区别在于 list 内元素可变，但是 tuple 内元素不可变。
-关于元素的定位，定义一个 list
+ 
+ - list 和 tuple 是python内置的有序集合，区别在于 list 内元素可变，但是 tuple 内元素不可变。
+ - 关于元素的定位，定义一个 list
 For example：
-c=['zhouweiqing']
+>c=['zhouweiqing']
 定位 c[1] or c[-1]
 c.append('hahhhhaah')#加入到 list 的最后一位
 c.insert(1,love)#插入
 c.pop()# 删除最后一个元素
-tuple 与 list 类似
-二，条件判断和循环
-条件判断： if，else，elif（else if）
-if 语句是从上往下判断的，如果某个判断是 True 则会执行对应语句，忽略其他
-循环 有两种
-第一种 for...in 循环，依次把 list 或 tuple 中的元素进行操作。
-For example:求0-100的求和
+ - 条件判断和循环
+条件判断： if，else，elif（else if）if 语句是从上往下判断的，如果某个判断是 True 则会执行对应语句，忽略其他.
+循环有两种
+>第一种 for...in 循环，依次把 list 或 tuple 中的元素进行操作。
+For example:
+>>求0-100的求和
 sum = 0
 for i in range(101)
     sum = sum + i
 print sum
+>
 第二种 while 循环，只要条件满足则不断循环，直至条件不满足，例子(计算100内奇数之和)：
-sum = 0
+>>sum = 0
 n = 99
 while n >0
     sum = sum + n
     n = n - 2
 print sum
  
-本次作业尝试运用 raw_input  增强程序的交互性,学习到:
+ - 本次作业尝试运用 raw_input  增强程序的交互性,学习到:
 raw_input()括号内的输入永远是字符串，如果想用数字进行操作，必须进行 int操作.
 
 现在就第一题进行一下详细地的解答:
@@ -118,7 +123,7 @@ raw_input()括号内的输入永远是字符串，如果想用数字进行操作
 
 
 ----------
-第四次作业
+第五次作业
 -
 本次作业我就在上次的作业中在挑选第三题做一下报告:
 本题已知运动微分方程为: 
@@ -131,6 +136,9 @@ dv/dt = a - bv
 ![enter image description here](https://raw.githubusercontent.com/2013ZhouWeiqing/computationalphysics_N2013301020044/master/%E7%AC%AC%E5%9B%9B%E6%AC%A1%E4%BD%9C%E4%B8%9A/figure_3.png)
 
 ----------
-第五次作业
+第六次作业
 -
 第五次作业仍未完成,周内上交.
+
+
+
