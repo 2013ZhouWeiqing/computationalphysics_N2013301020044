@@ -138,7 +138,8 @@ dv/dt = a - bv
 ----------
 第六次作业
 -
-第五次作业仍未完成,周内上交.
+第一次运用作业部落写作业,发现写公式非常的方便,但是不能和github直接关联,所以决定以后用作业部落写作业报告,用 stackedit编辑README.md
+[第六次作业报告(4.19更新)](https://www.zybuluo.com/mdeditor#343277-full-reader)
 
 
 
