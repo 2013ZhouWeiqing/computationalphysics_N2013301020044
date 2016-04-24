@@ -142,4 +142,7 @@ dv/dt = a - bv
 [第六次作业报告(4.19更新)](https://www.zybuluo.com/mdeditor#343277-full-reader)
 
 
-
+----------
+第七次作业
+-
+[第七次作业报告(4.24更新)](https://www.zybuluo.com/mdeditor#348770-full-reader)
