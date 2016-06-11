@@ -60,80 +60,14 @@ have fun and want to learn more about computer recently.
 ----------
 第四次作业
 -
-因为觉得自己对于计算机语言太过陌生，老师又鼓励我们多解决问题，把计算机用起来，所以这次作业我将Chapter1后面的六道题目都进行了练习，其中将第一，二题将进行了画图练习。
-作业的程序如下：
-
- 
-
-> 1. [第一题](https://github.com/2013ZhouWeiqing/computationalphysics_N2013301020044/blob/master/%E7%AC%AC%E5%9B%9B%E6%AC%A1%E4%BD%9C%E4%B8%9A/1.1.py)
- >2. [第二题](https://github.com/2013ZhouWeiqing/computationalphysics_N2013301020044/blob/master/%E7%AC%AC%E5%9B%9B%E6%AC%A1%E4%BD%9C%E4%B8%9A/1.2.py)
- >3. [第三题](https://github.com/2013ZhouWeiqing/computationalphysics_N2013301020044/blob/master/%E7%AC%AC%E5%9B%9B%E6%AC%A1%E4%BD%9C%E4%B8%9A/1.3.py)
- >4. [第四题](https://github.com/2013ZhouWeiqing/computationalphysics_N2013301020044/blob/master/%E7%AC%AC%E5%9B%9B%E6%AC%A1%E4%BD%9C%E4%B8%9A/1.4.py)
- >5. [第五题](https://github.com/2013ZhouWeiqing/computationalphysics_N2013301020044/blob/master/%E7%AC%AC%E5%9B%9B%E6%AC%A1%E4%BD%9C%E4%B8%9A/1.5.py)
- >6. [第六题](https://github.com/2013ZhouWeiqing/computationalphysics_N2013301020044/blob/master/%E7%AC%AC%E5%9B%9B%E6%AC%A1%E4%BD%9C%E4%B8%9A/1.6.py)
-
-对于所用程序的思路进行一下解释:
-
- - 首先创建一个空的list
- - 然后不断地将运算结果append打入list
- - 用 for 语句进行循环运算
- - 最后运用 list 中定位的功能print结果
- 
-因为不了解 list和循环语句,所以做作业之前进行了一些针对性的学习,在此分享一些总结的笔记:
- 
- - list 和 tuple 是python内置的有序集合，区别在于 list 内元素可变，但是 tuple 内元素不可变。
- - 关于元素的定位，定义一个 list
-For example：
->c=['zhouweiqing']
-定位 c[1] or c[-1]
-c.append('hahhhhaah')#加入到 list 的最后一位
-c.insert(1,love)#插入
-c.pop()# 删除最后一个元素
- - 条件判断和循环
-条件判断： if，else，elif（else if）if 语句是从上往下判断的，如果某个判断是 True 则会执行对应语句，忽略其他.
-循环有两种
->第一种 for...in 循环，依次把 list 或 tuple 中的元素进行操作。
-For example:
->>求0-100的求和
-sum = 0
-for i in range(101)
-    sum = sum + i
-print sum
->
-第二种 while 循环，只要条件满足则不断循环，直至条件不满足，例子(计算100内奇数之和)：
->>sum = 0
-n = 99
-while n >0
-    sum = sum + n
-    n = n - 2
-print sum
- 
- - 本次作业尝试运用 raw_input  增强程序的交互性,学习到:
-raw_input()括号内的输入永远是字符串，如果想用数字进行操作，必须进行 int操作.
-
-现在就第一题进行一下详细地的解答:
-本题是已知运动微分方程: dv/dt = -g,假定初始速度为0,加速度g为9.8(怎么打平方),然后计算从t=0s到t=10s之内的v值.(程序中我将正方向确定为向上)
-我利用[第一题](https://github.com/2013ZhouWeiqing/computationalphysics_N2013301020044/blob/master/%E7%AC%AC%E5%9B%9B%E6%AC%A1%E4%BD%9C%E4%B8%9A/1.1.py) 这个程序(程序主要利用了数组list和欧拉数值方法)列出了时间t以及该时刻所对应的速度v,再拟合出一条曲线.
-从图片中我们可以清楚地看见,该曲线为一条直线,即代表本题所考虑的变量v与变量t成线性关系.
-而借助常微分方程我们易得该微分方程的解析解为:v = gt,与拟合的曲线完全吻合,就此题目我们可以得出结论:
->1.利用欧拉数值方法近似求解线性方程,得出的是精确解.原因是线性方程因变量的二次微分为0.
->2.本题的物理模型为匀加速直线运动.
-
-![enter image description here](https://raw.githubusercontent.com/2013ZhouWeiqing/computationalphysics_N2013301020044/master/%E7%AC%AC%E5%9B%9B%E6%AC%A1%E4%BD%9C%E4%B8%9A/figure_1.png)
+[第四次作业报告](https://www.zybuluo.com/mdeditor#404590-full-reader)
 
 
 ----------
 第五次作业
 -
 本次作业我就在上次的作业中在挑选第三题做一下报告:
-本题已知运动微分方程为: 
-dv/dt = a - bv
-由程序 [第三题](https://github.com/2013ZhouWeiqing/computationalphysics_N2013301020044/blob/master/%E7%AC%AC%E5%9B%9B%E6%AC%A1%E4%BD%9C%E4%B8%9A/1.3.py) 列出了时间t和速度v的值表.程序和第一题类似也是主要利用了数组list和欧拉数值方法,其中另a =  9.8,b = 1.
-由曲线可看出该运动微分方程所限制的速度是有一个极限值的,利用高数知识可以解得这个极限速度是:a/b.在程序的设定中,极限速度应为9.8m/s,可以看出拟合的很好.
-
->本题比较常见的物理模型是物体从足够高的高度下落,因为空气阻力和重力的作用,最终会到达一个极限速度,不再增加,如雨滴下落.
-
-![enter image description here](https://raw.githubusercontent.com/2013ZhouWeiqing/computationalphysics_N2013301020044/master/%E7%AC%AC%E5%9B%9B%E6%AC%A1%E4%BD%9C%E4%B8%9A/figure_3.png)
+[第五次作业报告](https://www.zybuluo.com/mdeditor#404592-full-reader)
 
 ----------
 第六次作业
