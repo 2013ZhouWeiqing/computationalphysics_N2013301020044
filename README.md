@@ -57,55 +57,56 @@ have fun and want to learn more about computer recently.
  >2.[   level_2](https://github.com/2013ZhouWeiqing/computationalphysics_N2013301020044/blob/master/homework2_level_2.py)
 >3.[  level_3](https://github.com/2013ZhouWeiqing/computationalphysics_N2013301020044/blob/master/homework2_level_3.py)
  
-----------
-第四次作业
--
-[第四次作业报告]https://www.zybuluo.com/Zhou-Tiger/note/404590)
 
 
 ----------
-第五次作业
--
+
+
+[第四次作业报告](https://www.zybuluo.com/Zhou-Tiger/note/404590)
+
+
+----------
+
+
 本次作业我就在上次的作业中在挑选第三题做一下报告:
 [第五次作业报告](https://www.zybuluo.com/Zhou-Tiger/note/404592)
 
-----------
-第六次作业
--
+
 第一次运用作业部落写作业,发现写公式非常的方便,但是不能和github直接关联,所以决定以后用作业部落写作业报告,用 stackedit编辑README.md
+
+
+----------
+
+
 [第六次作业报告(4.19更新)](https://www.zybuluo.com/Zhou-Tiger/note/343277)
 
 
-----------
-第七次作业
--
+
 [第七次作业报告(4.24更新)](https://www.zybuluo.com/Zhou-Tiger/note/348770)
 
-----------
-第八次作业
--
+
 [第八次作业报告(5.16更新)](https://www.zybuluo.com/Zhou-Tiger/note/402659)
 
 
-----------
-第九次作业
--
+
 [第九次作业报告(6.10更新)](https://www.zybuluo.com/Zhou-Tiger/note/402659)
 
 
-----------
-第十次作业
--
 [第十次作业报告(6.11更新)](https://www.zybuluo.com/Zhou-Tiger/note/404517)
 
-----------
-第十一次作业
--
+
 [第十一次作业报告(6.14更新)](https://www.zybuluo.com/Zhou-Tiger/note/408094)
 
 
-----------
-第十二次作业
--
+
 [第十二次作业报告(6.15更新)](https://www.zybuluo.com/Zhou-Tiger/note/408229)
+
+
+----------
+####我今天才知道自己犯了一个错误,以前在StackEdit编辑作业的时候附上在作业部落里的文档链接竟然全都没有发布,只是预览的链接,所以只有我自己点进去可以看到文档,别人看不到.今天被人提醒才发现,万分抱歉!(6.19号留)
+
+
+----------
+
+[期末报告](https://www.zybuluo.com/Zhou-Tiger/note/412106)
 
