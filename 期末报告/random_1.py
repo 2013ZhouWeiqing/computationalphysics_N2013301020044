@@ -20,13 +20,13 @@ class walker(object):
                         return
         def movewalker(self):
                 if self.dire==0:
-                        self.x=self.x+0.5
+                        self.x=self.x+0.1
                 elif self.dire==1:
-                        self.x=self.x-0.5
+                        self.x=self.x-0.1
                 elif self.dire==2:
-                        self.y=self.y-0.5
+                        self.y=self.y-0.1
                 elif self.dire==3:
-                        self.y=self.y+0.5
+                        self.y=self.y+0.1
                 else :
                         print 'error4'
                 self.idir=random.randint(0,3)
