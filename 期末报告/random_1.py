@@ -5,40 +5,40 @@ import random
 class walker(object):
 	x=0.0
         y=0.0
-        free=1
-        idir=0
-        def __init__(self,x,y,free):
+        nonlock=1
+        dire=0
+        def __init__(self,x,y,nonlock):
                 self.x=x
                 self.y=y
-                self.free=free
+                self.nonlock=nonlock
         def trappiont(self):
-                if self.free==1:
-                        self.free=0
+                if self.nonlock==1:
+                        self.nonlock=0
                         return
                 else:
                         print 'error'
                         return
         def movewalker(self):
-                if self.idir==0:
+                if self.dire==0:
                         self.x=self.x+0.5
-                elif self.idir==1:
+                elif self.dire==1:
                         self.x=self.x-0.5
-                elif self.idir==2:
+                elif self.dire==2:
                         self.y=self.y-0.5
-                elif self.idir==3:
+                elif self.dire==3:
                         self.y=self.y+0.5
                 else :
                         print 'error4'
                 self.idir=random.randint(0,3)
 		s=random.randint(1,100)
 		if s<=25:
-			self.idir=3
+			self.dire=3
 		elif s<=50:
-			self.idir=2
+			self.dire=2
 		elif s<=75:
-			self.idir=1
+			self.dire=1
 		else:
-			self.idir=0
+			self.dire=0
 		co=[self.x,self.y]
 		if self.x>100 or self.x<-100 or self.y>100 or self.y<-100:
 			self.free=0
@@ -55,7 +55,7 @@ if __name__=='__main__':
 	x1=[]
 	x2=[]
 	su=0
-        while sc.free==1:
+        while sc.nonlock==1:
                 s=sc.movewalker()
 		x.append(s[0])
 		y.append(s[1])
