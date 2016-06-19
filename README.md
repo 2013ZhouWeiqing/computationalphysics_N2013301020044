@@ -60,52 +60,52 @@ have fun and want to learn more about computer recently.
 ----------
 第四次作业
 -
-[第四次作业报告](https://www.zybuluo.com/mdeditor#404590-full-reader)
+[第四次作业报告]https://www.zybuluo.com/Zhou-Tiger/note/404590)
 
 
 ----------
 第五次作业
 -
 本次作业我就在上次的作业中在挑选第三题做一下报告:
-[第五次作业报告](https://www.zybuluo.com/mdeditor#404592-full-reader)
+[第五次作业报告](https://www.zybuluo.com/Zhou-Tiger/note/404592)
 
 ----------
 第六次作业
 -
 第一次运用作业部落写作业,发现写公式非常的方便,但是不能和github直接关联,所以决定以后用作业部落写作业报告,用 stackedit编辑README.md
-[第六次作业报告(4.19更新)](https://www.zybuluo.com/mdeditor#343277-full-reader)
+[第六次作业报告(4.19更新)](https://www.zybuluo.com/Zhou-Tiger/note/343277)
 
 
 ----------
 第七次作业
 -
-[第七次作业报告(4.24更新)](https://www.zybuluo.com/mdeditor#348770-full-reader)
+[第七次作业报告(4.24更新)](https://www.zybuluo.com/Zhou-Tiger/note/348770)
 
 ----------
 第八次作业
 -
-[第八次作业报告(5.16更新)](https://www.zybuluo.com/mdeditor#356732-full-reader)
+[第八次作业报告(5.16更新)](https://www.zybuluo.com/Zhou-Tiger/note/402659)
 
 
 ----------
 第九次作业
 -
-[第九次作业报告(6.10更新)](https://www.zybuluo.com/mdeditor#402659-full-reader)
+[第九次作业报告(6.10更新)](https://www.zybuluo.com/Zhou-Tiger/note/402659)
 
 
 ----------
 第十次作业
 -
-[第十次作业报告(6.11更新)](https://www.zybuluo.com/mdeditor#404517-full-reader)
+[第十次作业报告(6.11更新)](https://www.zybuluo.com/Zhou-Tiger/note/404517)
 
 ----------
 第十一次作业
 -
-[第十一次作业报告(6.14更新)](https://www.zybuluo.com/mdeditor#408094-full-reader)
+[第十一次作业报告(6.14更新)](https://www.zybuluo.com/Zhou-Tiger/note/408094)
 
 
 ----------
 第十二次作业
 -
-[第十二次作业报告(6.15更新)](https://www.zybuluo.com/mdeditor#408229-full-reader)
+[第十二次作业报告(6.15更新)](https://www.zybuluo.com/Zhou-Tiger/note/408229)
 
